@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cva-simulator
+  labels:
+    app: cva-simulator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cva-simulator
+  template:
+    metadata:
+      labels:
+        app: cva-simulator
+    spec:
+      containers:
+        - name: cva-simulator
+          image: gcr.io/YOUR_GCP_PROJECT_ID/cva-simulator:latest
+          imagePullPolicy: IfNotPresent
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "256Mi"
+            limits:
+              cpu: "1"
+              memory: "512Mi"
+          # No ports are exposed because the binary prints results to stdout.
+          # Override args if you wrap the simulator with another entrypoint.
+      restartPolicy: Always

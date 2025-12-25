@@ -1,0 +1,14 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      [
+        "build",
+        "-t",
+        "gcr.io/$PROJECT_ID/cva-simulator:$COMMIT_SHA",
+        "-t",
+        "gcr.io/$PROJECT_ID/cva-simulator:latest",
+        "."
+      ]
+images:
+  - gcr.io/$PROJECT_ID/cva-simulator:$COMMIT_SHA
+  - gcr.io/$PROJECT_ID/cva-simulator:latest
