@@ -45,7 +45,6 @@ namespace cva {
         for (size_t j = 1; j < n_steps; ++j) {
             double t = time_grid[j];
             double t_prev = time_grid[j - 1];
-            double dt = t - t_prev;
 
             // Simplified Probability of Default in interval [t_prev, t]
             // PD = exp(-lambda * t_prev) - exp(-lambda * t)

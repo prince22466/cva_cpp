@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\test_cva.dir/objects.a
+D:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\test_cva.dir/objects.a @CMakeFiles\test_cva.dir\objects1.rsp
+D:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\test_cva.dir/objects.a -Wl,--no-whole-archive -o test_cva.exe -Wl,--out-implib,libtest_cva.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_cva.dir\linkLibs.rsp

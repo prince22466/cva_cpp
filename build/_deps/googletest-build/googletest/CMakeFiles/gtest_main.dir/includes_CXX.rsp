@@ -1,0 +1,1 @@
+-IE:/Projects/Simulation_Projects/cva_cpp/includes_hpp -isystem "E:/Projects/Simulation_Projects/cva_cpp/build/_deps/googletest-src/googletest/include" -isystem "E:/Projects/Simulation_Projects/cva_cpp/build/_deps/googletest-src/googletest"

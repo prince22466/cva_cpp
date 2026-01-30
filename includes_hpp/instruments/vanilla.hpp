@@ -65,7 +65,7 @@ namespace cva::instruments {
 
             double price = 0.0;
             // Use std::numbers::inv_sqrt2
-            constexpr double inv_sqrt2 = std::numbers::inv_sqrt2; 
+            constexpr double inv_sqrt2 = 1 / std::numbers::sqrt2; 
 
             if (type_ == OptionType::Call) {
                 // N(d1), N(d2). standard normal CDF.

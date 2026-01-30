@@ -1,0 +1,39 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MatrixTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "Addition",
+          "file": "E:\\Projects\\Simulation_Projects\\cva_cpp\\tests\\gtest_basic.cpp",
+          "line": 14
+        }
+      ]
+    },
+    {
+      "name": "RandomGeneratorTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "MeanVarianceRoughlyStandardNormal",
+          "file": "E:\\Projects\\Simulation_Projects\\cva_cpp\\tests\\gtest_basic.cpp",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "name": "EuropeanOptionTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "PayoffAtExpiry",
+          "file": "E:\\Projects\\Simulation_Projects\\cva_cpp\\tests\\gtest_basic.cpp",
+          "line": 48
+        }
+      ]
+    }
+  ]
+}
