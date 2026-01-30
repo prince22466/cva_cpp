@@ -1,5 +1,0 @@
-if(EXISTS "E:/Projects/Simulation_Projects/cva_cpp/build/tests/gtest_basic[1]_tests.cmake")
-  include("E:/Projects/Simulation_Projects/cva_cpp/build/tests/gtest_basic[1]_tests.cmake")
-else()
-  add_test(gtest_basic_NOT_BUILT gtest_basic_NOT_BUILT)
-endif()

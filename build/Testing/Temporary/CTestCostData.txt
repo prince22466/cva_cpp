@@ -1,8 +1,0 @@
-test_math 2 0.00917415
-test_market 2 0.0099511
-test_instruments 2 0.00871145
-test_cva 2 0.0088032
-MatrixTest.Addition 1 0.0139123
-RandomGeneratorTest.MeanVarianceRoughlyStandardNormal 1 0.0155139
-EuropeanOptionTest.PayoffAtExpiry 1 0.0119709
----

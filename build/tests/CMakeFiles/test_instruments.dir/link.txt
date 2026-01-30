@@ -1,3 +1,0 @@
-D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\test_instruments.dir/objects.a
-D:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\test_instruments.dir/objects.a @CMakeFiles\test_instruments.dir\objects1.rsp
-D:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\test_instruments.dir/objects.a -Wl,--no-whole-archive -o test_instruments.exe -Wl,--out-implib,libtest_instruments.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_instruments.dir\linkLibs.rsp
